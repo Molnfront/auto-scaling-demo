@@ -1,8 +1,11 @@
 ---
 applications:
-- framework: node
+- name: AutoScalingDemo
+  framework: node
   runtime: node10
   memory: 128M
   instances: 1
+  host: autoscalingdemo
+  domain: appernetic.io
   path: .
   command: node app.js
