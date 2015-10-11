@@ -5,7 +5,7 @@ applications:
   runtime: node10
   memory: 128M
   instances: 1
-  host: autoscal-xyz
+  host: autoscale-xyz
   domain: appernetic.io
   path: .
   command: node app.js
