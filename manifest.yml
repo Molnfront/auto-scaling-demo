@@ -1,11 +1,11 @@
 ---
 applications:
-- name: AutoScalingDemo
+- name: AutoScale-xyz
   framework: node
   runtime: node10
   memory: 128M
   instances: 1
-  host: autoscalingdemo
+  host: autoscal-xyz
   domain: appernetic.io
   path: .
   command: node app.js
